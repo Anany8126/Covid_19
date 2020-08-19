@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        android:layout_height="300dp"
+        app:lottie_url="REPLACE_JSON_URL"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="stay-home.json"
+        app:lottie_loop="true"/>
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="5dp"
+        app:lottie_url="REPLACE_JSON_URL"
+        app:lottie_fileName="doctors.json"
+        app:lottie_autoPlay="true"
+        android:layout_below="@+id/animationView"
+        app:lottie_loop="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COVID - 19"
+        android:typeface="serif"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/animationView2"
+        android:layout_centerInParent="true"
+        android:textColor="@color/deaths"
+        android:id="@+id/covid"
+        android:textSize="45sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered by Anany Sharma "
+        android:textSize="15sp"
+        android:id="@+id/Splash_anany"
+        android:textColor="@color/deaths"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/covid"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Mayank Raj Thakur "
+        android:textSize="15sp"
+        android:id="@+id/Splash_mayank"
+        android:textColor="@color/deaths"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Splash_anany"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ashu Saini "
+        android:textSize="15sp"
+        android:id="@+id/Splash_ashu"
+        android:textColor="@color/deaths"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Splash_mayank"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harshit Narula "
+        android:textSize="15sp"
+        android:id="@+id/Splash_baggu"
+        android:textColor="@color/deaths"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Splash_ashu"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"/>
+
+</RelativeLayout>

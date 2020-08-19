@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorsplash">@android:color/holo_orange_dark</color>
+    <color name="offwhite">#DED0CED6</color>
+    <color name="active">#FF2019</color>
+    <color name="recovered">#2DEF10</color>
+    <color name="deaths">#0C0B0C</color>
+    <color name="totalcase">#FFBF00</color>
+</resources>
